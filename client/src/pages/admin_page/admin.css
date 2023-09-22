@@ -1,0 +1,38 @@
+
+.admin-section a{
+    padding:45px;
+    margin:60px;
+    margin-top:50px;
+    border-radius: 10px;
+    color:white;
+    font-size: 20px;
+    box-shadow: 8px 8px 8px ghostwhite;
+}
+.admin-section a:hover{
+    padding:42px;
+}
+.admin-section{
+    display: flex;
+    ;align-items: center;
+    justify-content: center;
+    height:350px;
+}
+.orange{
+    background-color: #f79621;
+}
+.blue{
+    background-color: #e36849;
+}
+.green{
+    background-color: #33b3b2;
+}
+.yellow{
+    background-color: #137c78;
+}
+.add-product-form{
+    height:400px;
+    background-color: aliceblue;
+}
+.product-field{
+    margin:20px;
+}

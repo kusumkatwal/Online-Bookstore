@@ -1,0 +1,121 @@
+.account-login{
+    margin:auto; /*to center the div*/
+    /* margin:auto is used to center any block element such as div */
+    height:600px;
+    width: 600px;
+    background-color:#EEE2DA;;
+    /* position: relative;
+    top:60px; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /*offset value vertical, horizontal,blur value and color*/
+    box-shadow: 10px 10px 15px rgb(235, 235, 243) ;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.slider{
+    background-color:#064c72;
+    height: 60px;
+    width: 150px;
+    position: absolute;
+      z-index: 1; 
+     top:20px; 
+     left:150px;
+    border-radius: 10px;
+    transition: 0.5s all ease-out;
+    color:white;
+ } 
+/*this div resides inside container div*/
+.form-changing{
+    height:60px;
+    width:300px;
+    color: #064c72;
+    background-color:ghostwhite;
+    /*box-shadow: 8px 8px 10px rgb(204, 200, 200);*/
+    border-radius: 10px; /*to give oval shape to div*/
+    margin: 20px auto;/*20px gives margin around the div:top and buttom- auto centers the div*/
+    display: flex;  /* multiple button are arranged end to end*/
+    /*flexbox is used to arrange children end to end across row or column*/
+    align-items: center;    /*aligns buttons at the middle of the div vertically*/
+    /*space around distributes the children evenly across the width leaving a little gap at both ends/edges*/
+    justify-content: space-around;    /*aligns buttons at the middle of the div horizontally*/
+    /* position:relative;
+    top:10px; */
+    overflow:hidden;
+}
+.login,.signup{
+    
+    font-size: 22px;
+    border: none;
+    outline:none;
+    background-color: transparent;
+    position: relative;
+    /* left:120px; */
+    cursor: pointer;
+    color:#064c72;
+
+} 
+ 
+
+.moveslider{
+   left: 300px;
+}
+
+.form-section{
+    margin:auto;
+    height:400px;
+    /*width should be double than that of the container to hide the sign-up form*/
+    width:1200px;
+    display: flex;
+    position: relative;
+    left:0px; 
+    transition: all ease-in 0.5s;
+    margin-bottom: 40px;
+}
+.form-section-move{
+    left:-600px;
+}
+
+.log-in,
+.sign-up{
+    height:400px;
+    /*width of the log-in or sign-up should be equal to that of the container.*/
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.label{
+    font-size:22px;
+    color: #064c72;
+    display:block;
+    text-align: center;
+    padding:10px 40px;
+    /* font-family:monospace; */
+}
+.login-input{
+    height: 45px;
+    width: 420px;
+    outline: none;
+    border:none;
+    background-color:ghostwhite;
+    border-width: 2px;
+    border-radius: 10px;
+}
+.click-btn{
+    height:50px;
+    width:150px;
+    font-size: 22px;
+    border:none;
+    background-color:#064c72;
+    border-radius: 10px;
+   /*padding:10px 40px;*/
+    /* position: relative;
+    top:40px;
+    left:150px; */
+    margin:20px;
+    color:white;
+} 

@@ -1,0 +1,71 @@
+.Navbar {
+    background-color:white;
+    /* margin-bottom: 20px; */
+    padding-bottom: 25px;
+}
+.links{
+   display: inline-block; 
+   margin:10px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding:20px;
+    
+}
+.links .active{
+    color:#064c72;
+}
+.links a:hover{
+    color:#064c72;
+}
+.search{
+    display: flex;
+    align-items: center; 
+  margin:20px;  
+   
+}
+.search h1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #064c72;
+    margin-right:250px;
+}
+.form{
+    height:40px;
+    width:600px;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 5px;
+}
+.form i{
+
+    width:fit-content;
+}
+.input{
+    background-color: transparent;
+    font-size: 15px;
+    border: 0;
+    padding-left:20px;
+
+}
+.search div{
+    color:black;
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+    align-items: center;
+    padding-left:80px;
+   
+   
+}
+.search div a{
+    text-decoration: none;
+    color: #064c72;
+    
+    width: fit-content;
+    padding:0 20px;
+}

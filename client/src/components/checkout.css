@@ -1,0 +1,133 @@
+/* .checkout-form{
+    display: flex;
+    flex-direction: row;
+}
+.contact-leftblock {
+    width: 40%;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-rightblock {
+    height: 50%;
+    padding-left: 50px;
+}
+
+.contact-field,
+.contactbox {
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+
+}
+
+input[type="text"] {
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgb(249, 248, 248);
+    font-weight: 300;
+    text-transform: uppercase;
+    margin:20px;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    background: purple;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid #D6D1BD;
+    border-radius: 18px;
+    font-size: 19px;
+
+
+}
+
+.field_input {
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgb(249, 248, 248);
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.summary-box {
+    width: 380px;
+    height: 250px;
+    background-color: rgb(179, 179, 179);
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.total-block {
+    width: 380px;
+    height: 150px;
+    margin-left: 760px;
+    margin-right: 20px;
+    padding-right: 20px;
+    margin-top: 3px;
+    border-radius: 8%;
+}
+
+.bb {
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.buttonbox {
+    padding-left: 80px;
+}
+
+.tb {
+    padding-left: 220px;
+
+} */
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    height:800px;
+    width:600px;
+    margin:auto;
+}
+.contact-field{
+    margin:20px;
+}
+.contact-field input{
+    padding:20px 50px;
+    background-color: white;
+    margin:5px;
+    border-radius: 5px;
+    border:none;
+    text-decoration: none;
+}
+.contact-field label{
+    font-size: 20px;
+    padding-right:50px;
+}
+.contact-field select{
+    padding:20px;
+    border: none;
+    border-radius: 10px;
+}

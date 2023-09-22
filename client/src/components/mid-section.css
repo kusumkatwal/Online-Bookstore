@@ -1,0 +1,134 @@
+.content-holder{
+    /* width:100%; */
+    margin:30px;
+    /* display: flex;
+    flex-direction: row-reverse; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.author{
+    /* margin-left:30px; */
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    /* width: 45%; */
+}
+.title{
+    text-align: left;
+    font-size:30px;
+    color: #064c72;
+}
+.content-card{width:auto;
+
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.content-card img{
+     height:100px;
+    width:100px;  
+    border-radius:50%;
+    padding-right:20px;
+}
+.desc{
+    text-align: justify;
+    font-size: 15px;
+    width:350px;
+    /* padding-left:20px; */
+}
+.name{
+    font-size: 22px;
+    padding-bottom: 10px;
+    text-align: start;
+}
+#content a{
+    text-decoration: underline;
+    color:#ed6335;
+    text-align:start;
+    align-self:flex-start;
+}
+/* Middle column starts here */
+.Genre {
+    margin-left:20px;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    /* width: 30%; */}
+
+.box{
+   margin-top:20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.content img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    margin:10px;
+}
+/* last column */
+.bestsellers{
+    /* margin-left:20px; */
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    /* width: 50%; */
+}
+.title-div{
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+}
+.title-div h2{
+    /* text-align: start; */
+    text-align: left;
+}
+.title-div a{
+    text-align: right;
+    text-decoration: underline;
+    color: #ed6335;
+    /* padding-left:50px; */
+}
+.booklist{
+    padding:5px;
+}
+.book-sec{
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+    align-items: center;
+}
+/* .img{
+    width:30%;
+} */
+.image img{
+    height:120px;
+    width:90px;
+    padding-right:10px;
+}
+.info-sec{
+    width:auto;
+display: flex;
+flex-direction: column;
+  align-items: flex-start;
+}
+.book-title{
+    font-size:20px;
+}
+.date{
+    font-size: 15px;
+    color:darkgray;
+    padding-bottom: 40px;
+}
+.rate{
+   color:#ed6335;
+    
+}
+.rate i{
+    font-size: 20px;
+}
