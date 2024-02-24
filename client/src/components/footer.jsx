@@ -1,5 +1,9 @@
 import '../components/footer.css';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
+
 
 
 
@@ -43,11 +47,8 @@ export function Footer()
             </div>
             </div>
             <div className="socials">
-                <i className="fa fa-instagram"></i>
                 <i className="material-icons">facebook</i>
-                <i className="material-icons">instagram</i>
-                <i className="material-icons">pinterest</i>
-
+                
             </div>
             <div className="pay">
 
